@@ -6,11 +6,19 @@
 
 接管本项目的 Codex 请先完整阅读：
 
-1. [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) — **当前最高优先级**。五名角色母版、美宣进度、波姆准确停点、动画与声音方案、下一步动作。
-2. [`AGENTS.md`](AGENTS.md) — 跨会话协作规则和禁止事项。
-3. [`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`](CHARACTER_VISUAL_HANDOFF_2026-08-21.md) — 角色视觉实验历史。
-4. [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md) — 更早的群像与提示词历史。
-5. [`GAME_DESIGN_HANDOFF.md`](GAME_DESIGN_HANDOFF.md) — 游戏玩法、世界观与制作限制。
+1. [`docs/HANDOFF_2026-08-25_LOADING_SCREEN.md`](docs/HANDOFF_2026-08-25_LOADING_SCREEN.md) — **当前最高优先级**。三镜加载页构思、明快视觉方向、世界锁定流程、垫图顺序与完整提示词。
+2. [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) — 五名角色母版、美宣进度、波姆准确停点、动画与声音方案。
+3. [`AGENTS.md`](AGENTS.md) — 跨会话协作规则和禁止事项。
+4. [`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`](CHARACTER_VISUAL_HANDOFF_2026-08-21.md) — 角色视觉实验历史。
+5. [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md) — 更早的群像与提示词历史。
+6. [`GAME_DESIGN_HANDOFF.md`](GAME_DESIGN_HANDOFF.md) — 游戏玩法、世界观与制作限制。
+
+## 2026-08-25 当前停点
+
+- 当前任务切换为加载页动画的三张静态关键帧：纯场景世界母版 → 五人走出山口 → 五人中景定场。
+- 视觉已确认采用高明度蔚蓝天空、纯净白云、鲜亮黄绿草地和中性白色日光；录屏只参考缓慢展示世界的镜头节奏，不参考其暖色调。
+- 第一张必须先生成并锁定为唯一世界母版；第二张在母版上加人，第三张换机位但继续垫入母版。
+- 当前尚未生成或验收三张关键帧，不能标记为完成。
 
 ## 2026-08-24 准确停点
 
