@@ -347,3 +347,119 @@
 
 不要改变甲虫大小和位置，不要正脸和眼睛，不要巨大翅膀，不要蝴蝶造型，不要尖刺、巨角、钳子、利爪、铠甲、机械结构、宝石核心和强烈发光，不要增加腿或触角，不要把甲虫变成植物、花朵或精灵，不要修改图1其他任何区域。
 ```
+
+## 十七、2026-08-26 最新同步：Midjourney 明快风格探索
+
+### 用户最新确认的审美方向
+
+用户整体更喜欢本次归档参考图的明快色调、空间通透感和厚涂方式：
+
+- `assets/handoff/2026-08-26/mj-bright-style-reference.png`
+
+确认要继承的是：
+
+- 高明度、清澈的钴蓝／青蓝天空。
+- 鲜亮的黄绿色草地与冷透明蓝绿色阴影。
+- 朱红／宝石红作为集中视觉焦点。
+- 中性偏白的明亮日光，而不是夕阳、橙黄滤镜或暖色电影调色。
+- 大中型色块、选择性清晰边缘、可信三维空间上的精炼二维厚涂。
+- 明快、轻松、充满新冒险期待的西方动画电影与英雄式卡通奇幻环境气质。
+
+这张参考图的巨型装甲甲虫、纵向道路和中央首领式构图都不是目标，严禁作为内容继承。
+
+### 本轮发现的两个提示词冲突
+
+旧探索词中的以下结构会持续把画面带错：
+
+1. `a narrow sunlit dirt road running from bottom center toward the exact central vanishing point` 会直接诱发“道路从镜头脚下通往中央消失点”的纵向道路，与已锁定的横向道路冲突。
+2. `fantasy beetle + heroic MOBA key art + symmetrical center-follow composition` 容易把普通小甲虫英雄化为占满画面的巨型装甲怪物、螃蟹或 Boss。
+
+新的语言原则：
+
+> 环境与气氛承担英雄式奇幻语言；甲虫始终只是一个很小、普通、无害的路边昆虫。
+
+### 最新锁定的空间结构
+
+- 摄像机位于近侧高草内部，处于昆虫高度，正对道路另一侧拍摄。
+- 小甲虫位于画面下方中央，约占画宽 5%–7%，停在一片带露珠的弧形草叶尖端，完全背对镜头。
+- 草叶下方中央保留干净空间，给下一镜米露卡的脸从画面下方探出。
+- 黄土路必须横贯画面中部，从左边缘连续延伸到右边缘，近似平行于画面上下边缘。
+- 道路不能从画面底部出发，不能向中央消失点延伸，也不能成为纵向道路。
+- 道路远侧只有一条狭窄、破碎的岩石路肩，随后立即出现明确的悬崖落差。
+- 悬崖下方是开阔沟壑、层叠侵蚀地形与浅色岩壁；道路对面不能再是一整片连续草原。
+- 沟壑远处为多层蓝绿色幻想山脉，重点使用细长、尖削、受风侵蚀、轻微弯曲的石脊和一处很小的残缺天然石拱。
+- 云必须是自然的风拉伸积云：圆润云团加宽阔渐尖拖尾；不使用卷曲、螺旋、圆环、钩形、羽毛形或书法装饰云。
+
+## 十八、最新版 Midjourney 探索提示词
+
+下面这版用于继续探索“明快色调 + 横向道路 + 路后悬崖沟壑 + 幻想山脉”的完整画面。它是当前最新版，而不是最终生产定稿。
+
+```text
+Bright high-key fantasy adventure environment, viewed from insect height inside dense roadside grass. A tiny harmless jewel-red beetle, only 5–7% of the image width, rests naturally on the tip of one broad dew-covered grass blade at the lower center of the frame. The beetle is seen completely from behind, with a compact rounded body, closed smooth wing covers, tiny legs and two short antennae. It remains an ordinary delicate insect, not a hero, creature or monster.
+
+The curved grass blade rises from the near foreground toward the lower center. Preserve a clean open pocket directly beneath the beetle and leaf, reserved for a character’s face rising into frame in the following shot.
+
+The camera looks straight across a broad sunlit ochre dirt road. The road forms a flat horizontal band running continuously from the left edge to the right edge across the middle of the image, almost parallel to the top and bottom borders. The road does not begin at the camera, does not run toward the horizon and has no centered vanishing point.
+
+Immediately beyond the far shoulder of the road is a narrow broken rocky verge followed by a clearly visible sharp cliff edge. The land drops abruptly into a broad open ravine with layered gullies, exposed pale stone faces and strong vertical depth. There is no continuous meadow or flat grassland beyond the road.
+
+Across the ravine, layered blue-green fantasy mountain ranges rise through clean atmospheric perspective. Their silhouettes are distinctive and elegant: several tall slender wind-carved stone ridges, tapered blade-like peaks, gently leaning and naturally bending rock formations, plus one small broken natural stone arch far in the distance. The mountains feel ancient and otherworldly but remain part of a believable natural landscape.
+
+Expansive brilliant azure-blue sky with large natural white cumulus cloud banks stretched softly by the wind. Rounded cloud masses with broad tapered trailing edges, airy irregular silhouettes and clean open blue spaces between them. The clouds remain recognizably natural, without ornamental curls or symbolic shapes.
+
+Fresh saturated yellow-green grass, luminous cobalt and cyan sky, cool transparent blue-green shadows, vivid ruby-red beetle as the only concentrated red accent. Clear neutral-white late-morning sunlight, bright exposure, crisp color separation, clean breathable atmosphere, cheerful adventurous mood.
+
+Refined heroic cartoon-fantasy MOBA environment key art, energetic Western animated-feature visual language, believable three-dimensional space rendered with sophisticated two-dimensional painterly brushwork, bold medium-to-large color shapes, selective crisp edges around the beetle and foreground leaf, softer simplified distant terrain, polished promotional illustration, controlled detail hierarchy.
+
+The fantasy heroism belongs to the landscape and atmosphere; the beetle stays tiny, simple and harmless.
+
+--ar 16:9 --s 130 --c 3 --no giant insect, monster beetle, armored beetle, horns, pincers, claws, weapons, glowing eyes, visible face, open wings, vertical road, road leading into distance, central road perspective, continuous meadow beyond road, forest wall, ordinary blocky canyon, curled clouds, spiral clouds, circular clouds, cloud rings, cloud hooks, feather-shaped clouds, calligraphic clouds, castle, city, tower, floating island, people, text, logo, black outlines, dark scene, sunset, orange color grading
+```
+
+## 十九、Midjourney 官网垫图与参数
+
+### 垫图角色分工
+
+1. 将构图最接近“横向道路 + 中央小甲虫”的当前底图放入 `Image Prompt`，让它约束构图和空间。
+2. 将 `assets/handoff/2026-08-26/mj-bright-style-reference.png` 放入 `Style Reference`，只提取明快配色、通透天空和厚涂质感。
+3. 不要把这张巨型甲虫参考放入 `Image Prompt` 或 `Omni Reference`，否则容易继承巨型怪物、纵向道路和中央压迫式构图。
+
+### 建议起始设置
+
+- Aspect Ratio：`16:9`
+- Image Weight：`2–2.5`
+- Style Weight：先用 `70`
+- Stylization：`130`
+- Variety：`3`
+- Raw Mode：关闭
+
+Style Weight 不要一开始开到 120 以上，因为该参考同时携带很强的巨型甲虫和纵向道路视觉结构。先用 70 只提取颜色与绘制语言；若风格仍不足，再依次试 90、110。每次只修改一个变量，方便判断效果来源。
+
+## 二十、截至睡前的准确进度与明日续接
+
+### 已确认
+
+- 加载动画仍采用约 20 秒、加载未完成时循环、玩家可跳过的方案。
+- 第一段从小甲虫视角与路边高草进入世界；之后米露卡探头，镜头再连接五人互动、悬崖世界揭示和甲虫回环。
+- 加载 UI 位于底部，Logo 位于左上角，其他功能图标未来放在右侧竖列；当前阶段暂不制作 UI。
+- 先做三张静态关键画面，再用静态母版生成视频，不直接把五张角色母版塞入视频模型碰运气。
+- 视觉色调锁定为明快蓝天、鲜绿植被、中性白日光和冷透明阴影，不使用录屏中的暖橙色调。
+- 砚秋是队伍中最高挑的成员，这是刻意设定，不应在群像中压缩她的身高。
+
+### 仍是候选／尚未核验
+
+- 本节最新版 MJ 提示词尚未生成新一轮结果，悬崖落差、幻想山脉、自然云形和小甲虫比例还需要以实际四宫格验证。
+- `mj-bright-style-reference.png` 只被确认作为色彩和绘制语言参考，其内容、怪物设计和道路构图没有被确认。
+- 还没有选出最终第一镜静态母版，也没有进入米露卡探头的正式合成。
+
+### 明天到公司后的第一步
+
+1. 在 MJ 官网按第十九节垫图并运行第十八节完整提示词。
+2. 四宫格先只验收四个硬指标：道路是否横向；路后是否立刻断崖；山是否细长弯曲且具有幻想辨识度；云是否自然且无卷曲装饰。
+3. 只有上述四项同时接近，才继续比较明快配色、甲虫大小和笔触；不要因为颜色漂亮就接受错误空间。
+4. 若四张都出现同一种错误，修改提示词；若只有一张接近，优先对该张做 Vary Subtle，不要整套重来。
+5. 第一镜构图和风格通过后，再转入 Nano Banana Pro 修正甲虫结构与朝向，随后加入米露卡。
+
+明天给公司 Codex 的建议开场信息：
+
+> 请先同步并阅读仓库根目录 `HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md` 的第十七至二十节。当前正在 Midjourney 官网探索第一镜静态母版：横向黄土路、路后立即出现悬崖沟壑、远处细长弯曲幻想石脊和天然石拱、自然无卷曲的白云、明快蓝绿白日色调。请先按第十八节提示词和第十九节垫图设置跑一轮四宫格；不要做 UI，不要直接生成视频，也不要把甲虫做成巨型装甲怪物。
