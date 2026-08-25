@@ -1,20 +1,27 @@
-# 横版音乐游戏：前期玩法构思
+# 横版音乐游戏：品牌、角色与加载动画开发
 
-这是一个使用 AI 图片与 AI 视频资产制作的横版音乐游戏前期设计仓库。
+这是一个使用 AI 图片、AI 视频和少量程序交互制作的横版音乐游戏前期设计仓库。当前尚未进入正式程序开发，重点是五名原创角色、横版叙事美宣、加载循环动画、出场与待机系统，以及《星谱大陆》品牌视觉。
 
-接管本项目的 Codex 请先完整阅读：
+## 当前入口
 
-- [`HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md`](HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md) — **当前最高优先级**，已锁定品牌名称、Logo 方向、加载循环动画、三张关键帧、第一镜生图试错和准确停点。
-- [`GAME_DESIGN_HANDOFF.md`](GAME_DESIGN_HANDOFF.md) — 玩法设计历史、限制条件与早期完整对话记录。
+接管本项目的 Codex 请按以下顺序阅读：
 
-当前没有进入程序开发阶段。2026-08-25 的最新工作重点已经转为五人小队加载循环动画与品牌视觉：游戏名锁定为《星谱大陆》／`ASTRAL SCORE`，正在用 Midjourney 探索画风、Nano Banana Pro 锁定构图与角色，先完成甲虫与米露卡的第一镜母版。
+1. [`HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md`](HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md) — **当前最高优先级**，记录品牌名称、Logo 方向、加载循环动画、三张关键帧、第一镜生图试错和准确停点。
+2. [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) — 五名角色当前母版、美宣进度、动画与声音方案，以及此前波姆美宣停点。
+3. [`AGENTS.md`](AGENTS.md) — 跨会话协作规则、当前任务和禁止事项。
+4. [`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`](CHARACTER_VISUAL_HANDOFF_2026-08-21.md) — 角色视觉实验历史。
+5. [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md) — 更早的群像与提示词历史。
+6. [`GAME_DESIGN_HANDOFF.md`](GAME_DESIGN_HANDOFF.md) — 游戏玩法、世界观、制作限制与早期完整记录。
 
-2026-08-20 已确认最终五人方向：米露卡、奈纱、波姆、佩可、砚秋。当天后续又完成了 Midjourney 群像与单人提示词实验，推翻了早先“佩可＝绮翼族裁音师”等方案。
+## 2026-08-25 准确停点
 
-接管时请按以下顺序阅读：
+- 游戏名称锁定为《星谱大陆》／`ASTRAL SCORE`，Logo 方向已确认但尚未开始正式绘制。
+- 当前优先任务已从波姆单人美宣切换为五人小队加载循环动画；波姆“动物视角守护者”美宣仍是候选停点，素材保留，但不是已验收定稿。
+- 加载动画约 20 秒，可跳过；未完成加载时循环播放。叙事从路边甲虫与米露卡开始，经过小队互动，最终在悬崖揭示大世界并回到甲虫形成循环。
+- 计划控制为三张关键帧：甲虫／米露卡、四人行进互动与米露卡追队、悬崖世界揭示。复杂首段能否仅靠一组首尾帧稳定生成仍需实测，不能提前标记为已锁定。
+- 当前第一镜母版位于 [`assets/handoff/2026-08-25/beetle-roadside-current.png`](assets/handoff/2026-08-25/beetle-roadside-current.png)。
+- 下一步先用 Nano Banana Pro 对甲虫做“种荚／花瓣叠片式鞘翅”的轻度异世界形态调整，保持它是普通小虫子的画面权重；确认后再制作米露卡从叶片下方平视探头的状态。
+- 五名角色身份与外形以 [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) 和 [`assets/character-masters/`](assets/character-masters/) 为准。
+- 英雄联盟参考图库仅用于本地分析构图、光影、材质和动势，未上传到公开仓库。
 
-1. [`HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md`](HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md) — 当前品牌与加载动画准确停点。
-2. [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md) — 五人最终设定、生图踩坑与角色身份源。
-3. [`GAME_DESIGN_HANDOFF.md`](GAME_DESIGN_HANDOFF.md) — 游戏玩法、世界观与此前完整设计历史。
-
-不要依据旧章节恢复绮翼族大翅膀佩可、大型四角手里剑、短柄仪式槌、鸣瓮族、钟枝鹿灵或掌心精灵。
+不要依据旧章节恢复佩可双枪或绮翼族大翅膀、奈纱“夜丝族”或短发、砚秋符册、波姆焦糖胖熊或短柄重槌、鸣瓮族、钟枝鹿灵、掌心纤细精灵，也不要回到五人群像直接定稿流程。

@@ -2,7 +2,7 @@
 
 > **2026-08-25 最新接管提示：** 品牌名称、Logo 方向、五人加载循环动画、三张关键帧与甲虫第一镜已经有新的确认和试验结果。接管者必须先读根目录的 [`HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md`](HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md)。本文仍保留玩法和早期设计历史，但不再代表品牌与加载动画的当前停点。
 
-> **2026-08-20 最新接管提示：** 本文第二十三至二十七节之后，角色方向继续发生了重大修改。接管者必须先读根目录的 [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md)。其中的五人设定、生图结论和停点优先于本文所有冲突内容。
+> **2026-08-24 角色接管提示：** 本文后续角色章节是设计历史。五名角色身份与当前母版以 [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) 和 [`assets/character-masters/`](assets/character-masters/) 为准；再按需阅读 [`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`](CHARACTER_VISUAL_HANDOFF_2026-08-21.md) 与 [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md)。
 
 更新时间：2026-08-20（晚间）
 
