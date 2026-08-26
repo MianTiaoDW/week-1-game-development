@@ -1,29 +1,32 @@
-# 横版音乐游戏：品牌、角色与加载动画开发
+# 《星谱大陆》：角色、玩法与游戏界面开发
 
-这是一个使用 AI 图片、AI 视频和少量程序交互制作的横版音乐游戏前期设计仓库。当前尚未进入正式程序开发，重点是五名原创角色、横版叙事美宣、加载循环动画、出场与待机系统，以及《星谱大陆》品牌视觉。
+这是一个使用 AI 图片、AI 视频和程序交互制作的幻想冒险游戏前期设计仓库。游戏包含音乐节奏与横屏跑酷玩法。当前紧急优先任务是角色选择页 UI；五名角色美宣将作为全屏出场动画，而不是统一背景中的独立站姿角色。
 
 ## 当前入口
 
 接管本项目的 Codex 请按以下顺序阅读：
 
-1. [`HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md`](HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md) — **当前最高优先级**，记录品牌名称、Logo 方向、加载循环动画、三张关键帧、第一镜生图试错和准确停点。
-2. [`docs/HANDOFF_2026-08-26_BANANA_BEETLE_REFINEMENT.md`](docs/HANDOFF_2026-08-26_BANANA_BEETLE_REFINEMENT.md) — **当前第一镜执行入口**，记录风格化 CG 路线、全图精修失败诊断、像素对比、分区修图方法、星荚甲虫状态和回家后的唯一下一步。
-3. [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) — 五名角色当前母版、美宣进度、动画与声音方案，以及此前波姆美宣停点。
-4. [`AGENTS.md`](AGENTS.md) — 跨会话协作规则、当前任务和禁止事项。
-5. [`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`](CHARACTER_VISUAL_HANDOFF_2026-08-21.md) — 角色视觉实验历史。
-6. [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md) — 更早的群像与提示词历史。
-7. [`GAME_DESIGN_HANDOFF.md`](GAME_DESIGN_HANDOFF.md) — 游戏玩法、世界观、制作限制与早期完整记录。
-8. [`docs/HANDOFF_2026-08-25_LOADING_SCREEN.md`](docs/HANDOFF_2026-08-25_LOADING_SCREEN.md) — 较早的“纯场景→抵达→群像”加载页方案与完整提示词，已被甲虫循环方案取代，仅用于追溯。
+1. [`docs/HANDOFF_2026-08-27_CHARACTER_SELECT_UI.md`](docs/HANDOFF_2026-08-27_CHARACTER_SELECT_UI.md) — **当前最高优先级**，记录角色选择逻辑、UI 方向、全部关键迭代、踩坑、资产管线和下一次公司端会话的唯一下一步。
+2. [`AGENTS.md`](AGENTS.md) — 跨会话协作规则、当前任务和禁止事项。
+3. [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) — 五名角色当前母版、美宣、出场动画与声音方案。
+4. [`HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md`](HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md) — 品牌名称、Logo 与已暂停的加载循环动画资料。
+5. [`docs/HANDOFF_2026-08-26_BANANA_BEETLE_REFINEMENT.md`](docs/HANDOFF_2026-08-26_BANANA_BEETLE_REFINEMENT.md) — 已暂停的第一镜世界母版、星荚甲虫与 Banana 分区修图记录。
+6. [`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`](CHARACTER_VISUAL_HANDOFF_2026-08-21.md) — 角色视觉实验历史。
+7. [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md) — 更早的群像和提示词历史。
+8. [`GAME_DESIGN_HANDOFF.md`](GAME_DESIGN_HANDOFF.md) — 玩法、世界观、制作限制与早期完整记录。
+9. [`docs/HANDOFF_2026-08-25_LOADING_SCREEN.md`](docs/HANDOFF_2026-08-25_LOADING_SCREEN.md) — 更早的加载页历史方案，仅用于追溯。
 
-## 2026-08-26 准确停点
+## 2026-08-27 准确停点
 
 - 游戏名称锁定为《星谱大陆》／`ASTRAL SCORE`，Logo 方向已确认但尚未开始正式绘制。
-- 当前优先任务已从波姆单人美宣切换为五人小队加载循环动画；波姆“动物视角守护者”美宣仍是候选停点，素材保留，但不是已验收定稿。
-- 加载动画约 20 秒，可跳过；未完成加载时循环播放。叙事从路边甲虫与米露卡开始，经过小队互动，最终在悬崖揭示大世界并回到甲虫形成循环。
-- 计划控制为三张关键帧：甲虫／米露卡、四人行进互动与米露卡追队、悬崖世界揭示。复杂首段能否仅靠一组首尾帧稳定生成仍需实测，不能提前标记为已锁定。
-- 当前冻结的第一镜世界母版位于 [`assets/handoff/2026-08-26/mj-world-master.png`](assets/handoff/2026-08-26/mj-world-master.png)。禁止继续全图 Banana 精修；只允许裁图或蒙版分区修改。
-- 星荚甲虫的双瓣种荚鞘翅、青蓝折叠翅膜、嫩芽触角和少量星点方向已经通过，当前候选位于 [`assets/handoff/2026-08-26/banana-star-pod-beetle-candidate.png`](assets/handoff/2026-08-26/banana-star-pod-beetle-candidate.png)。它仍需最后一次局部微修：主要背对镜头、严格两根触角、六条腿、窄翅膜；完成后立即进入米露卡平视探头终帧。
+- 加载动画、Logo 与波姆旧美宣当前全部暂停；素材与结论保留，未经用户重新排序不得抢先恢复。
+- 当前先完成单角色选择页 UI，再制作／接入角色出场动画。固定顺序为 `MILUKA → NAISHA → PEKO → YANQIU → BOMU`。
+- 五张角色美宣已归档到 [`assets/handoff/2026-08-27/character-select/`](assets/handoff/2026-08-27/character-select/)，它们是全屏出场动画基础，不是要被抠成统一站姿的立绘。
+- 页面使用英文 UI，右上包含金币和宝石，底部中央为五张小型约 `3:4` 角色卡，右下按钮文字为 `CONFIRM`。
+- 视觉方向为“圆润星谱器物 UI”：中性品牌骨架＋少量角色主题色；内部允许材质和微光，外围保持干净以便切 PNG。
+- 最新全页迭代因约束过度退化成通用圆角模板，只可参考尺寸与安全区，不是视觉母版。
+- 下一次公司端会话先不垫角色美宣；在均匀浅暖灰背景上生成 A/B/C 三套独立 UI 资产家族，选型后再回到米露卡与佩可做冷暖双场景验证。
 - 五名角色身份与外形以 [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) 和 [`assets/character-masters/`](assets/character-masters/) 为准。
 - 英雄联盟参考图库仅用于本地分析构图、光影、材质和动势，未上传到公开仓库。
 
-不要依据旧章节恢复佩可双枪或绮翼族大翅膀、奈纱“夜丝族”或短发、砚秋符册、波姆焦糖胖熊或短柄重槌、鸣瓮族、钟枝鹿灵、掌心纤细精灵，也不要回到五人群像直接定稿流程。
+不要依据旧章节恢复已否决角色设定，也不要继续使用完整美宣＋超长提示词一次重做全部 UI。详细边界与公司端开场信息见当前最高优先级交接。
