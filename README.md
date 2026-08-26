@@ -7,21 +7,22 @@
 接管本项目的 Codex 请按以下顺序阅读：
 
 1. [`HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md`](HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md) — **当前最高优先级**，记录品牌名称、Logo 方向、加载循环动画、三张关键帧、第一镜生图试错和准确停点。
-2. [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) — 五名角色当前母版、美宣进度、动画与声音方案，以及此前波姆美宣停点。
-3. [`AGENTS.md`](AGENTS.md) — 跨会话协作规则、当前任务和禁止事项。
-4. [`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`](CHARACTER_VISUAL_HANDOFF_2026-08-21.md) — 角色视觉实验历史。
-5. [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md) — 更早的群像与提示词历史。
-6. [`GAME_DESIGN_HANDOFF.md`](GAME_DESIGN_HANDOFF.md) — 游戏玩法、世界观、制作限制与早期完整记录。
-7. [`docs/HANDOFF_2026-08-25_LOADING_SCREEN.md`](docs/HANDOFF_2026-08-25_LOADING_SCREEN.md) — 较早的“纯场景→抵达→群像”加载页方案与完整提示词，已被甲虫循环方案取代，仅用于追溯。
+2. [`docs/HANDOFF_2026-08-26_BANANA_BEETLE_REFINEMENT.md`](docs/HANDOFF_2026-08-26_BANANA_BEETLE_REFINEMENT.md) — **当前第一镜执行入口**，记录风格化 CG 路线、全图精修失败诊断、像素对比、分区修图方法、星荚甲虫状态和回家后的唯一下一步。
+3. [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) — 五名角色当前母版、美宣进度、动画与声音方案，以及此前波姆美宣停点。
+4. [`AGENTS.md`](AGENTS.md) — 跨会话协作规则、当前任务和禁止事项。
+5. [`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`](CHARACTER_VISUAL_HANDOFF_2026-08-21.md) — 角色视觉实验历史。
+6. [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md) — 更早的群像与提示词历史。
+7. [`GAME_DESIGN_HANDOFF.md`](GAME_DESIGN_HANDOFF.md) — 游戏玩法、世界观、制作限制与早期完整记录。
+8. [`docs/HANDOFF_2026-08-25_LOADING_SCREEN.md`](docs/HANDOFF_2026-08-25_LOADING_SCREEN.md) — 较早的“纯场景→抵达→群像”加载页方案与完整提示词，已被甲虫循环方案取代，仅用于追溯。
 
-## 2026-08-25 准确停点
+## 2026-08-26 准确停点
 
 - 游戏名称锁定为《星谱大陆》／`ASTRAL SCORE`，Logo 方向已确认但尚未开始正式绘制。
 - 当前优先任务已从波姆单人美宣切换为五人小队加载循环动画；波姆“动物视角守护者”美宣仍是候选停点，素材保留，但不是已验收定稿。
 - 加载动画约 20 秒，可跳过；未完成加载时循环播放。叙事从路边甲虫与米露卡开始，经过小队互动，最终在悬崖揭示大世界并回到甲虫形成循环。
 - 计划控制为三张关键帧：甲虫／米露卡、四人行进互动与米露卡追队、悬崖世界揭示。复杂首段能否仅靠一组首尾帧稳定生成仍需实测，不能提前标记为已锁定。
-- 当前第一镜母版位于 [`assets/handoff/2026-08-25/beetle-roadside-current.png`](assets/handoff/2026-08-25/beetle-roadside-current.png)。
-- 下一步先用 Nano Banana Pro 对甲虫做“种荚／花瓣叠片式鞘翅”的轻度异世界形态调整，保持它是普通小虫子的画面权重；确认后再制作米露卡从叶片下方平视探头的状态。
+- 当前冻结的第一镜世界母版位于 [`assets/handoff/2026-08-26/mj-world-master.png`](assets/handoff/2026-08-26/mj-world-master.png)。禁止继续全图 Banana 精修；只允许裁图或蒙版分区修改。
+- 星荚甲虫的双瓣种荚鞘翅、青蓝折叠翅膜、嫩芽触角和少量星点方向已经通过，当前候选位于 [`assets/handoff/2026-08-26/banana-star-pod-beetle-candidate.png`](assets/handoff/2026-08-26/banana-star-pod-beetle-candidate.png)。它仍需最后一次局部微修：主要背对镜头、严格两根触角、六条腿、窄翅膜；完成后立即进入米露卡平视探头终帧。
 - 五名角色身份与外形以 [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) 和 [`assets/character-masters/`](assets/character-masters/) 为准。
 - 英雄联盟参考图库仅用于本地分析构图、光影、材质和动势，未上传到公开仓库。
 
