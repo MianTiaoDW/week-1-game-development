@@ -1,5 +1,7 @@
 # 横版音乐游戏构思：Codex 无缝接管文档
 
+> **2026-08-28 主玩法更新：** 当前主玩法已转向关卡制横版冒险跑酷，节奏玩法降为世界中的小游戏。最新事实源、候选闭环和待确认项见 [`docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md`](docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md)；不要依据本文恢复纯节奏主循环。
+
 > **2026-08-25 最新接管提示：** 品牌名称、Logo 方向、五人加载循环动画、三张关键帧与甲虫第一镜已经有新的确认和试验结果。接管者必须先读根目录的 [`HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md`](HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md)。本文仍保留玩法和早期设计历史，但不再代表品牌与加载动画的当前停点。
 
 > **2026-08-24 角色接管提示：** 本文后续角色章节是设计历史。五名角色身份与当前母版以 [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) 和 [`assets/character-masters/`](assets/character-masters/) 为准；再按需阅读 [`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`](CHARACTER_VISUAL_HANDOFF_2026-08-21.md) 与 [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md)。
