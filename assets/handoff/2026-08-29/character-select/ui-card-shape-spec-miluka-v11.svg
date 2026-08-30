@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="readability" x1="0" x2="1"><stop stop-color="#071326" stop-opacity=".76"/><stop offset=".72" stop-color="#071326" stop-opacity="0"/></linearGradient>
+    <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#ffd951"/><stop offset="1" stop-color="#f6a418"/></linearGradient>
+    <linearGradient id="confirmOrange" x1="0" x2="1"><stop stop-color="#f59a20"/><stop offset="1" stop-color="#df7115"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="milukaClip"><rect x="470" y="725" width="126" height="168" rx="11"/></clipPath>
+    <clipPath id="naishaClip"><rect x="628" y="725" width="126" height="168" rx="11"/></clipPath>
+    <clipPath id="pekoClip"><rect x="786" y="725" width="126" height="168" rx="11"/></clipPath>
+    <clipPath id="yanqiuClip"><rect x="944" y="725" width="126" height="168" rx="11"/></clipPath>
+    <clipPath id="bomuClip"><rect x="1102" y="725" width="126" height="168" rx="11"/></clipPath>
+  </defs>
+
+  <image xlink:href="../../2026-08-27/character-select/miluka-splash.jpg" x="0" y="0" width="1920" height="1080" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="0" y="0" width="780" height="620" fill="url(#readability)"/>
+
+  <!-- Locked return-ticket language -->
+  <path d="M33 36 H157 Q176 36 176 55 Q176 74 157 74 H33 Q20 74 20 55 Q20 36 33 36Z" fill="#fff7df" stroke="#c9a36d" stroke-width="3"/>
+  <path d="M72 45 L48 55 L72 65" fill="none" stroke="#101d3a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M151 54 l5 5 l-5 5 l-5-5Z" fill="#f1a42a" stroke="#101d3a" stroke-width="2"/>
+
+  <!-- Locked title / trait language -->
+  <text x="84" y="224" fill="#fff5df" font-family="Georgia,serif" font-size="110" font-weight="700">MILUKA</text>
+  <text x="88" y="282" fill="#f0ad31" font-family="Georgia,serif" font-size="30" font-weight="700" letter-spacing="2">ASTRAL APPRENTICE</text>
+  <g fill="#101c36" fill-opacity=".85" stroke="#5b6985" stroke-width="2">
+    <circle cx="132" cy="366" r="42"/><circle cx="244" cy="366" r="42"/><circle cx="356" cy="366" r="42"/>
+  </g>
+  <g fill="#fff0ce" stroke="#fff0ce" stroke-width="4">
+    <circle cx="127" cy="361" r="13" fill="none"/><path d="M137 371 l13 13" fill="none" stroke-linecap="round"/>
+    <path d="M244 340 l7 19 l19 7 l-19 7 l-7 19 l-7-19 l-19-7 l19-7Z"/>
+    <path d="M350 348 q-16 22 1 40 q18-7 16-33 q-6 4-17-7Z"/>
+  </g>
+  <g fill="#fff5df" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle"><text x="132" y="430">CURIOUS</text><text x="244" y="430">MAGIC</text><text x="356" y="430">AGILE</text></g>
+
+  <!-- Locked dual-currency language -->
+  <g transform="translate(1320 34)">
+    <path d="M18 0 H191 Q212 0 212 25 Q212 50 191 50 H18 Q0 50 0 25 Q0 0 18 0Z" fill="#101b38" fill-opacity=".88" stroke="#59647b" stroke-width="2"/>
+    <circle cx="35" cy="25" r="17" fill="#f2a421" stroke="#fff1c7" stroke-width="3"/><path d="M28 25 h14 M35 18 v14" stroke="#ffe8a0" stroke-width="3"/>
+    <text x="65" y="33" fill="#fff5df" font-family="Georgia,serif" font-size="24">12,580</text><circle cx="177" cy="25" r="16" fill="#fff5df"/><path d="M170 25 h14 M177 18 v14" stroke="#101b38" stroke-width="3"/>
+  </g>
+  <g transform="translate(1552 34)">
+    <path d="M18 0 H174 Q195 0 195 25 Q195 50 174 50 H18 Q0 50 0 25 Q0 0 18 0Z" fill="#101b38" fill-opacity=".88" stroke="#59647b" stroke-width="2"/>
+    <path d="M35 7 l13 18 l-13 18 l-13-18Z" fill="#39a9ff" stroke="#d8f5ff" stroke-width="3"/><text x="65" y="33" fill="#fff5df" font-family="Georgia,serif" font-size="24">680</text><circle cx="160" cy="25" r="16" fill="#fff5df"/><path d="M153 25 h14 M160 18 v14" stroke="#101b38" stroke-width="3"/>
+  </g>
+
+  <!-- Locked standalone star-chevron language -->
+  <g transform="translate(42 508)"><path d="M31 0 L4 28 L31 56 L42 45 L27 28 L42 11Z" fill="#fff4d8" stroke="#10203d" stroke-width="5" stroke-linejoin="round"/><path d="M38 21 l7 7 l-7 7 l-7-7Z" fill="#f0a42c"/></g>
+  <g transform="translate(1830 508)"><path d="M12 0 L39 28 L12 56 L1 45 L16 28 L1 11Z" fill="#fff4d8" stroke="#10203d" stroke-width="5" stroke-linejoin="round"/><path d="M5 21 l7 7 l-7 7 l-7-7Z" fill="#f0a42c"/></g>
+
+  <!-- Normal 3:4 white card bodies -->
+  <g fill="#fff9e9" stroke="#d9c49e" stroke-width="4">
+    <rect x="628" y="725" width="126" height="168" rx="14"/><rect x="786" y="725" width="126" height="168" rx="14"/><rect x="944" y="725" width="126" height="168" rx="14"/><rect x="1102" y="725" width="126" height="168" rx="14"/>
+  </g>
+  <!-- Selected 3:4 yellow body: vertical with the only permitted top-right flare -->
+  <path d="M483 725 H584 L610 704 L596 893 H470 V741 Q470 725 483 725Z" fill="url(#gold)" stroke="#fff1a8" stroke-width="5" filter="url(#glow)"/>
+  <rect x="478" y="725" width="118" height="168" rx="11" fill="#fff8e5"/>
+
+  <!-- Portrait masks -->
+  <image xlink:href="../../../character-masters/miluka.png" x="467" y="716" width="138" height="142" preserveAspectRatio="xMidYMid slice" clip-path="url(#milukaClip)"/>
+  <image xlink:href="../../../character-masters/nysha.png" x="625" y="716" width="132" height="142" preserveAspectRatio="xMidYMid slice" clip-path="url(#naishaClip)"/>
+  <image xlink:href="../../../character-masters/peko.png" x="783" y="716" width="132" height="142" preserveAspectRatio="xMidYMid slice" clip-path="url(#pekoClip)"/>
+  <image xlink:href="../../../character-masters/yanqiu.png" x="941" y="716" width="132" height="142" preserveAspectRatio="xMidYMid slice" clip-path="url(#yanqiuClip)"/>
+  <image xlink:href="../../../character-masters/bomu.png" x="1099" y="716" width="132" height="142" preserveAspectRatio="xMidYMid slice" clip-path="url(#bomuClip)"/>
+
+  <!-- Dark-blue name-mask contour based on the supplied lower overlay shape -->
+  <g fill="#101c3a">
+    <path d="M478 837 C510 825 558 844 596 830 V879 Q596 893 582 893 H492 Q478 893 478 879Z"/>
+    <path d="M628 837 C660 825 716 844 754 830 V879 Q754 893 740 893 H642 Q628 893 628 879Z"/>
+    <path d="M786 837 C818 825 874 844 912 830 V879 Q912 893 898 893 H800 Q786 893 786 879Z"/>
+    <path d="M944 837 C976 825 1032 844 1070 830 V879 Q1070 893 1056 893 H958 Q944 893 944 879Z"/>
+    <path d="M1102 837 C1134 825 1190 844 1228 830 V879 Q1228 893 1214 893 H1116 Q1102 893 1102 879Z"/>
+  </g>
+  <g fill="#fff7df" font-family="Georgia,serif" font-weight="700" font-size="19" text-anchor="middle"><text x="537" y="873">MILUKA</text><text x="691" y="873">NAISHA</text><text x="849" y="873">PEKO</text><text x="1007" y="873">YANQIU</text><text x="1165" y="873">BOMU</text></g>
+
+  <!-- Horizontal CONFIRM sibling of the selected-card silhouette -->
+  <path d="M1430 912 H1702 L1730 894 L1718 972 H1430 Q1412 972 1412 954 V930 Q1412 912 1430 912Z" fill="url(#confirmOrange)" stroke="#fff0b0" stroke-width="4"/>
+  <text x="1565" y="952" fill="#10203d" font-family="Georgia,serif" font-size="35" font-weight="700" text-anchor="middle">CONFIRM</text>
+</svg>

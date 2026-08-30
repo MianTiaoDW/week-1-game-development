@@ -17,27 +17,28 @@
 
 1. [`docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md`](docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md) — **当前总入口与最高优先级**，记录关卡制横版冒险跑酷转向、节奏小游戏位置、温暖星路旅行 UI、全部新失败记录和回家后的执行顺序。
 2. [`docs/HANDOFF_2026-08-31_CHARACTER_TURNAROUNDS.md`](docs/HANDOFF_2026-08-31_CHARACTER_TURNAROUNDS.md) — 角色四视图的当前事实源：五人锁定项、米露卡候选问题、可直接使用的提示词、波姆体型纠正与后续验收顺序。
-3. [`docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md`](docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md) — Logo、加载动画与角色选择 UI 的前序跨对话停点。
-4. [`docs/HANDOFF_2026-08-27_CHARACTER_SELECT_UI.md`](docs/HANDOFF_2026-08-27_CHARACTER_SELECT_UI.md) — 角色选择逻辑、UI 全部关键迭代、踩坑和资产管线。
-5. [`AGENTS.md`](AGENTS.md) — 跨会话协作规则、当前任务和禁止事项。
-6. [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) — 五名角色当前母版、美宣、出场动画与声音方案。
-7. [`HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md`](HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md) — 品牌名称、Logo 与已暂停的加载循环动画资料。
-8. [`docs/HANDOFF_2026-08-26_BANANA_BEETLE_REFINEMENT.md`](docs/HANDOFF_2026-08-26_BANANA_BEETLE_REFINEMENT.md) — 已暂停的第一镜世界母版、星荚甲虫与 Banana 分区修图记录。
-9. [`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`](CHARACTER_VISUAL_HANDOFF_2026-08-21.md) — 角色视觉实验历史。
-10. [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md) — 更早的群像和提示词历史。
-11. [`GAME_DESIGN_HANDOFF.md`](GAME_DESIGN_HANDOFF.md) — 玩法、世界观、制作限制与早期完整记录。
-12. [`docs/HANDOFF_2026-08-25_LOADING_SCREEN.md`](docs/HANDOFF_2026-08-25_LOADING_SCREEN.md) — 更早的加载页历史方案，仅用于追溯。
+3. [`docs/HANDOFF_2026-08-31_CHARACTER_SELECT_UI_SYSTEM.md`](docs/HANDOFF_2026-08-31_CHARACTER_SELECT_UI_SYSTEM.md) — **角色选择 UI 当前事实源**：3:4 卡片、锁定组件、`CONFIRM` 未完成状态、全部新迭代、提示词模板和下一步。
+4. [`docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md`](docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md) — Logo、加载动画与角色选择 UI 的前序跨对话停点。
+5. [`docs/HANDOFF_2026-08-27_CHARACTER_SELECT_UI.md`](docs/HANDOFF_2026-08-27_CHARACTER_SELECT_UI.md) — 角色选择逻辑、UI 前序迭代、踩坑和资产管线。
+6. [`AGENTS.md`](AGENTS.md) — 跨会话协作规则、当前任务和禁止事项。
+7. [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) — 五名角色当前母版、美宣、出场动画与声音方案。
+8. [`HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md`](HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md) — 品牌名称、Logo 与已暂停的加载循环动画资料。
+9. [`docs/HANDOFF_2026-08-26_BANANA_BEETLE_REFINEMENT.md`](docs/HANDOFF_2026-08-26_BANANA_BEETLE_REFINEMENT.md) — 已暂停的第一镜世界母版、星荚甲虫与 Banana 分区修图记录。
+10. [`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`](CHARACTER_VISUAL_HANDOFF_2026-08-21.md) — 角色视觉实验历史。
+11. [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md) — 更早的群像和提示词历史。
+12. [`GAME_DESIGN_HANDOFF.md`](GAME_DESIGN_HANDOFF.md) — 玩法、世界观、制作限制与早期完整记录。
+13. [`docs/HANDOFF_2026-08-25_LOADING_SCREEN.md`](docs/HANDOFF_2026-08-25_LOADING_SCREEN.md) — 更早的加载页历史方案，仅用于追溯。
 
-## 2026-08-28 准确停点
+## 2026-08-31 准确停点
 
 - 游戏名称锁定为《星谱大陆》／`ASTRAL SCORE`，Logo 方向已确认但尚未开始正式绘制。
 - 主玩法已选择 B：有起点终点、岔路、剧情事件和探索收集的关卡制横版冒险跑酷。节奏游戏作为世界中的小游戏保留，不再是主循环。
-- 当前先锁首版跑酷闭环；第一个问题是角色自动向右前进还是允许左右控制。加载动画、Logo、角色选择视觉生成与波姆旧美宣全部暂停，未经用户重新排序不得抢先恢复。
+- 跑酷主玩法方向继续保留，但用户随后明确恢复角色选择 UI。当前先锁 3:4 角色卡、已确认组件和 `CONFIRM`；完成后再回到“自动前进或左右控制”的跑酷问题。加载动画、Logo 与波姆旧美宣继续暂停。
 - UI 最新方向为“温暖星路旅行”：奶油黄内容区、清浅蓝结构、暖橙主操作、少量薄荷绿。功能页可用完整旅行册面板，角色选择等沉浸页只用边缘小组件。
 - 角色选择原型位置与大小已由用户画出并归档；固定显示顺序仍为 `MILUKA → NAISHA → PEKO → YANQIU → BOMU`，其中 `NAISHA/NYSHA` 英文拼写待核验。
 - 五张角色美宣已归档到 [`assets/handoff/2026-08-27/character-select/`](assets/handoff/2026-08-27/character-select/)，它们是全屏出场动画基础，不是要被抠成统一站姿的立绘。
 - 页面使用英文 UI，右上包含金币和宝石，底部中央为五张小型约 `3:4` 角色卡，右下按钮文字为 `CONFIRM`。
-- 独立资产板探索已经验证失败：旅行铭牌结果死板暗淡，轻量图形结果退化成请柬线框。回家后不要继续抽 UI；先定跑酷，再以用户原型做完整页面概念，通过后才反推组件。
+- 2026-08-29 至 2026-08-31 已完成冷暖美宣上的多轮整页测试。返回、双货币、信息圆图标和无底框左右箭头的形状已锁定；角色卡宽高比为 3:4；`CONFIRM` 仍未通过。详细状态与提示词见 8 月 31 日专项交接。
 - 五名角色身份与外形以 [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) 和 [`assets/character-masters/`](assets/character-masters/) 为准。
 - 英雄联盟参考图库仅用于本地分析构图、光影、材质和动势，未上传到公开仓库。
 
