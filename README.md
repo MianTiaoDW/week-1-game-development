@@ -7,16 +7,17 @@
 接管本项目的 Codex 请按以下顺序阅读：
 
 1. [`docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md`](docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md) — **当前总入口与最高优先级**，记录关卡制横版冒险跑酷转向、节奏小游戏位置、温暖星路旅行 UI、全部新失败记录和回家后的执行顺序。
-2. [`docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md`](docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md) — Logo、加载动画与角色选择 UI 的前序跨对话停点。
-3. [`docs/HANDOFF_2026-08-27_CHARACTER_SELECT_UI.md`](docs/HANDOFF_2026-08-27_CHARACTER_SELECT_UI.md) — 角色选择逻辑、UI 全部关键迭代、踩坑和资产管线。
-4. [`AGENTS.md`](AGENTS.md) — 跨会话协作规则、当前任务和禁止事项。
-5. [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) — 五名角色当前母版、美宣、出场动画与声音方案。
-6. [`HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md`](HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md) — 品牌名称、Logo 与已暂停的加载循环动画资料。
-7. [`docs/HANDOFF_2026-08-26_BANANA_BEETLE_REFINEMENT.md`](docs/HANDOFF_2026-08-26_BANANA_BEETLE_REFINEMENT.md) — 已暂停的第一镜世界母版、星荚甲虫与 Banana 分区修图记录。
-8. [`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`](CHARACTER_VISUAL_HANDOFF_2026-08-21.md) — 角色视觉实验历史。
-9. [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md) — 更早的群像和提示词历史。
-10. [`GAME_DESIGN_HANDOFF.md`](GAME_DESIGN_HANDOFF.md) — 玩法、世界观、制作限制与早期完整记录。
-11. [`docs/HANDOFF_2026-08-25_LOADING_SCREEN.md`](docs/HANDOFF_2026-08-25_LOADING_SCREEN.md) — 更早的加载页历史方案，仅用于追溯。
+2. [`docs/HANDOFF_2026-08-31_CHARACTER_TURNAROUNDS.md`](docs/HANDOFF_2026-08-31_CHARACTER_TURNAROUNDS.md) — 角色四视图的当前事实源：五人锁定项、米露卡候选问题、可直接使用的提示词、波姆体型纠正与后续验收顺序。
+3. [`docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md`](docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md) — Logo、加载动画与角色选择 UI 的前序跨对话停点。
+4. [`docs/HANDOFF_2026-08-27_CHARACTER_SELECT_UI.md`](docs/HANDOFF_2026-08-27_CHARACTER_SELECT_UI.md) — 角色选择逻辑、UI 全部关键迭代、踩坑和资产管线。
+5. [`AGENTS.md`](AGENTS.md) — 跨会话协作规则、当前任务和禁止事项。
+6. [`docs/HANDOFF_2026-08-24.md`](docs/HANDOFF_2026-08-24.md) — 五名角色当前母版、美宣、出场动画与声音方案。
+7. [`HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md`](HANDOFF_2026-08-25_BRAND_AND_LOADING_LOOP.md) — 品牌名称、Logo 与已暂停的加载循环动画资料。
+8. [`docs/HANDOFF_2026-08-26_BANANA_BEETLE_REFINEMENT.md`](docs/HANDOFF_2026-08-26_BANANA_BEETLE_REFINEMENT.md) — 已暂停的第一镜世界母版、星荚甲虫与 Banana 分区修图记录。
+9. [`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`](CHARACTER_VISUAL_HANDOFF_2026-08-21.md) — 角色视觉实验历史。
+10. [`CHARACTER_MJ_HANDOFF_2026-08-20.md`](CHARACTER_MJ_HANDOFF_2026-08-20.md) — 更早的群像和提示词历史。
+11. [`GAME_DESIGN_HANDOFF.md`](GAME_DESIGN_HANDOFF.md) — 玩法、世界观、制作限制与早期完整记录。
+12. [`docs/HANDOFF_2026-08-25_LOADING_SCREEN.md`](docs/HANDOFF_2026-08-25_LOADING_SCREEN.md) — 更早的加载页历史方案，仅用于追溯。
 
 ## 2026-08-28 准确停点
 

@@ -1,7 +1,7 @@
 # Codex 接管规则
 
 1. 每次开始工作先读 `docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md`；它是当前主玩法、UI 方向、跨对话状态和执行顺序的最高优先级事实源。随后按需阅读 `docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md` 与 `docs/HANDOFF_2026-08-27_CHARACTER_SELECT_UI.md` 追溯 Logo、加载动画和 UI 试错。
-2. 角色身份与外形先读 `docs/HANDOFF_2026-08-24.md` 并查看 `assets/character-masters/`；`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`、`CHARACTER_MJ_HANDOFF_2026-08-20.md` 和 `GAME_DESIGN_HANDOFF.md` 只用于追溯历史。
+2. 角色四视图、表情图与道具图先读 `docs/HANDOFF_2026-08-31_CHARACTER_TURNAROUNDS.md`，再查看 `assets/character-masters/`；美宣、出场动画与较早角色背景先读 `docs/HANDOFF_2026-08-24.md`。`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`、`CHARACTER_MJ_HANDOFF_2026-08-20.md` 和 `GAME_DESIGN_HANDOFF.md` 只用于追溯历史。
 3. 五名角色的身份母版固定在 `assets/character-masters/`。图像任务中称母版为“图1”，构图或氛围参考为“图2”。
 4. 用户偏好短而有主次的提示词。先锁角色、故事瞬间、镜头骨架、主光和少量禁止项，不要用几十条平均权重的限制淹没模型。
 5. 英雄联盟本地图库只用于分析构图、明暗、材质和空间语法，不复制角色、武器、服装、Logo 或一比一原画。
