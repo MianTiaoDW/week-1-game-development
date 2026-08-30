@@ -1,0 +1,114 @@
+[
+  {
+    "source": "D:\\爱狗AI课程\\AIGC全攻略第四期\\第一周游戏开发\\nano-ai-1788115469875_5MB内.jpg",
+    "destination": "current-color-broom-fixed.jpg",
+    "status": "用户确认骑乘修好了；不是整图最终验收",
+    "archived": true,
+    "bytes": 3678124,
+    "sha256": "660d3b4f01efbc297cb01a92e87f3344260510455eb997818ab907c0cffb5eb7"
+  },
+  {
+    "source": "D:\\爱狗AI课程\\AIGC全攻略第四期\\第一周游戏开发\\nano-ai-1788116113813.png",
+    "destination": "current-lineart-initial.png",
+    "status": "已生成初始线稿；待细化及验收",
+    "archived": true,
+    "bytes": 4063222,
+    "sha256": "5a74b4b1f4fd18b465f4120e08c84c4a647f46b89944f8f14e18ea4d41b581f4"
+  },
+  {
+    "source": "D:\\爱狗AI课程\\AIGC全攻略第四期\\第一周游戏开发\\米露卡四视图.png",
+    "destination": "references/miluka-turnaround.png",
+    "status": "本轮身份参考",
+    "archived": true,
+    "bytes": 7069593,
+    "sha256": "1088acc002980df1f63912fc979d8b10e14bc174e17ee4ee5c33cf382006a2e1"
+  },
+  {
+    "source": "D:\\爱狗AI课程\\AIGC全攻略第四期\\第一周游戏开发\\波姆四视图.png",
+    "destination": "references/bomu-turnaround.png",
+    "status": "本轮身份参考",
+    "archived": true,
+    "bytes": 1312462,
+    "sha256": "29a8d781195689d91036c545f9dd23418673ee4e4ebaf2498999b86bae308fd7"
+  },
+  {
+    "source": "D:\\爱狗AI课程\\AIGC全攻略第四期\\第一周游戏开发\\奈纱四视图.png",
+    "destination": "references/nasha-turnaround.png",
+    "status": "本轮身份参考",
+    "archived": true,
+    "bytes": 1478459,
+    "sha256": "33767db1a82b84a3be4cbdbe77b140f5e684119bf941903dd3877080b76ed868"
+  },
+  {
+    "source": "D:\\爱狗AI课程\\AIGC全攻略第四期\\第一周游戏开发\\佩可四视图.png",
+    "destination": "references/peke-turnaround.png",
+    "status": "本轮身份参考",
+    "archived": true,
+    "bytes": 1464287,
+    "sha256": "f11f300bb1ed0ace3c1d6d900c83aa24c1c182b47138c23c27e0b748f32bb9d8"
+  },
+  {
+    "source": "D:\\爱狗AI课程\\AIGC全攻略第四期\\第一周游戏开发\\砚秋四视图.png",
+    "destination": "references/yanqiu-turnaround.png",
+    "status": "本轮身份参考",
+    "archived": true,
+    "bytes": 1737707,
+    "sha256": "b1c74cc9d26765b2f3a404177961a343714da93a99e18393c80df064a3765a43"
+  },
+  {
+    "source": "D:\\爱狗AI课程\\AIGC全攻略第四期\\第一周游戏开发\\米露卡母版.png",
+    "destination": "references/miluka-master.png",
+    "status": "本轮扫帚与角色参考，不强制当前图手持魔杖",
+    "archived": true,
+    "bytes": 4316231,
+    "sha256": "5076f1e1f4e1f5bf4c9397b3d22be37e3783c9f67ef37a9b48273eaa79ea205b"
+  },
+  {
+    "source": "D:\\爱狗AI课程\\AIGC全攻略第四期\\第一周游戏开发\\奈纱母版.png",
+    "destination": "references/nasha-master.png",
+    "status": "单把收鞘忍刀、一枚手持苦无、三枚备用苦无",
+    "archived": true,
+    "bytes": 4218240,
+    "sha256": "d5e93adf9f5aef2b55258a3e19779d8398ad073aec988c2439265053a8418cbb"
+  },
+  {
+    "source": "D:\\爱狗AI课程\\AIGC全攻略第四期\\第一周游戏开发\\佩可母版.jpeg",
+    "destination": "references/peke-master.jpeg",
+    "status": "单炮口巨炮武器参考，当前图没有炮",
+    "archived": true,
+    "bytes": 1514373,
+    "sha256": "c4a99ac35ffa545402e7032472c99d1902e84d5347878f07e890e9337cf47be5"
+  },
+  {
+    "source": "D:\\爱狗AI课程\\AIGC全攻略第四期\\第一周游戏开发\\砚秋母版.jpg",
+    "destination": "references/yanqiu-master.jpg",
+    "status": "四张符卡参考，当前彩稿没有明确四卡",
+    "archived": true,
+    "bytes": 1227542,
+    "sha256": "81bac35c4b6c471f0df9904db81619bfb9dcc88ded8e7a39d4dcb694bf00c796"
+  },
+  {
+    "source": "D:\\爱狗AI课程\\AIGC全攻略第四期\\第一周游戏开发\\加载页1.jpg",
+    "destination": "history/loading-shot-composite.jpg",
+    "status": "开场甲虫镜头历史拼图，未定稿",
+    "archived": true,
+    "bytes": 2135654,
+    "sha256": "272de45dfd3e4ac9004f55fcfe7f5167971f38abd77619415ae3c50bbf8636ca"
+  },
+  {
+    "source": "D:\\爱狗AI课程\\AIGC全攻略第四期\\第一周游戏开发\\素体.jpg",
+    "destination": "history/director-blocking.jpg",
+    "status": "用户3D导演台：仅控制站位遮挡，不控制pose",
+    "archived": true,
+    "bytes": 408798,
+    "sha256": "b6a87471f6604398f30e396691468de93e9e3913d28a002d5584e942c4950c9c"
+  },
+  {
+    "source": "D:/Google下载地址/CaiYuan_GunGun_Five_tiny_fantasy_adventurers_seen_from_behind_c9b697e0-faa6-4900-ad70-ecb06985ad96_3.png",
+    "destination": "history/approved-environment-composition.png",
+    "status": "用户对环境构图表示满意；占位角色不是最终角色",
+    "archived": true,
+    "bytes": 1801197,
+    "sha256": "8ed17de227d47648e7f626bd84d8a50a0ecba017fcd1282123dea3626c516691"
+  }
+]

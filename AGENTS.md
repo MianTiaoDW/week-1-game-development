@@ -1,5 +1,7 @@
 # Codex 接管规则
 
+0. **2026-08-31视觉任务更新**：先读 `docs/HANDOFF_2026-08-31_KEYART_AND_LINEART.md`。用户已恢复视觉制作并推进到五人动态群像线稿细化；本任务的当前停点以该文为准，不能按第8条旧顺序强制返回玩法问题。08-28文件仍负责既有玩法/UI事实。所有可恢复对话、提示词原文、当前彩稿与线稿已归档；不要把四人佩可分支或背影群像误当当前任务。线稿精修中的补四卡/苦无与“内容不变”有冲突，须按新交接处理，不能静默添加武器。
+
 1. 每次开始工作先读 `docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md`；它是当前主玩法、UI 方向、跨对话状态和执行顺序的最高优先级事实源。随后按需阅读 `docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md` 与 `docs/HANDOFF_2026-08-27_CHARACTER_SELECT_UI.md` 追溯 Logo、加载动画和 UI 试错。
 2. 角色四视图、表情图与道具图先读 `docs/HANDOFF_2026-08-31_CHARACTER_TURNAROUNDS.md`，再查看 `assets/character-masters/`；美宣、出场动画与较早角色背景先读 `docs/HANDOFF_2026-08-24.md`。`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`、`CHARACTER_MJ_HANDOFF_2026-08-20.md` 和 `GAME_DESIGN_HANDOFF.md` 只用于追溯历史。
 3. 五名角色的身份母版固定在 `assets/character-masters/`。图像任务中称母版为“图1”，构图或氛围参考为“图2”。

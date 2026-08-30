@@ -4,6 +4,15 @@
 
 ## 当前入口
 
+**2026-08-31更新：当前视觉制作停在五人动态群像的线稿精修。** 用户已确认米露卡骑扫帚修正、已生成初始线稿，精修提示词已交付但结果未验收。先读 [最新视觉交接](docs/HANDOFF_2026-08-31_KEYART_AND_LINEART.md)。下方08-28优先级保留为玩法/UI历史，不再用其暂停顺序覆盖用户后来恢复的视觉任务。
+
+- [全部可恢复对话（197条）](docs/conversations/2026-08-31-keyart/TRANSCRIPT.md)
+- [18份关键提示词与原话全文](docs/prompts/2026-08-31/README.md)
+- [修正骑乘后的彩稿](assets/handoff/2026-08-31-keyart/current-color-broom-fixed.jpg) · [当前初始线稿](assets/handoff/2026-08-31-keyart/current-lineart-initial.png)
+- [14个关键图像的来源与哈希](assets/handoff/2026-08-31-keyart/manifest.json)
+
+加载世界观完整叙事、浮空岛环境、白底背影/3D站位、四人佩可动作与当前五人图均分支归档。原文保留错误历史，使用前看最新交接的冲突说明。接下来是线稿验收→扁平色稿→重构提示词→重新上色；本次没有把未完成项目标成定稿。
+
 接管本项目的 Codex 请按以下顺序阅读：
 
 1. [`docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md`](docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md) — **当前总入口与最高优先级**，记录关卡制横版冒险跑酷转向、节奏小游戏位置、温暖星路旅行 UI、全部新失败记录和回家后的执行顺序。
