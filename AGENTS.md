@@ -1,8 +1,10 @@
 # Codex 接管规则
 
+按任务路由：大厅UI先读 `docs/HANDOFF_2026-08-31_LOBBY_UI.md`；角色选择、角色四视图、群像线稿分别读各自08-31交接。不得用一个任务的暂停/恢复状态覆盖另一个任务。大厅只做视觉探索；已锁定的背景和右上资源/设置不可擅改，六张规范中的示例不授权新增玩法，候选图不等于验收或可切透明资产。
+
 0. **2026-08-31视觉任务更新**：先读 `docs/HANDOFF_2026-08-31_KEYART_AND_LINEART.md`。用户已恢复视觉制作并推进到五人动态群像线稿细化；本任务的当前停点以该文为准，不能按第8条旧顺序强制返回玩法问题。08-28文件仍负责既有玩法/UI事实。所有可恢复对话、提示词原文、当前彩稿与线稿已归档；不要把四人佩可分支或背影群像误当当前任务。线稿精修中的补四卡/苦无与“内容不变”有冲突，须按新交接处理，不能静默添加武器。
 
-1. 每次开始工作先读 `docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md`；它是当前主玩法、UI 方向、跨对话状态和执行顺序的最高优先级事实源。随后按需阅读 `docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md` 与 `docs/HANDOFF_2026-08-27_CHARACTER_SELECT_UI.md` 追溯 Logo、加载动画和 UI 试错。
+1. `docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md` 负责玩法转向与早期UI历史；新视觉任务按上方路由读取，不沿用已被后续用户请求覆盖的执行顺序。按需阅读 `docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md` 与 `docs/HANDOFF_2026-08-27_CHARACTER_SELECT_UI.md` 追溯历史。
 2. 角色四视图、表情图与道具图先读 `docs/HANDOFF_2026-08-31_CHARACTER_TURNAROUNDS.md`，再查看 `assets/character-masters/`；美宣、出场动画与较早角色背景先读 `docs/HANDOFF_2026-08-24.md`。`CHARACTER_VISUAL_HANDOFF_2026-08-21.md`、`CHARACTER_MJ_HANDOFF_2026-08-20.md` 和 `GAME_DESIGN_HANDOFF.md` 只用于追溯历史。
 3. 五名角色的身份母版固定在 `assets/character-masters/`。图像任务中称母版为“图1”，构图或氛围参考为“图2”。
 4. 用户偏好短而有主次的提示词。先锁角色、故事瞬间、镜头骨架、主光和少量禁止项，不要用几十条平均权重的限制淹没模型。

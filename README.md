@@ -1,8 +1,14 @@
 # 《星谱大陆》：角色、玩法与游戏界面开发
 
-这是一个使用 AI 图片、AI 视频和程序交互制作的幻想冒险游戏前期设计仓库。当前主玩法已选择关卡制横版冒险跑酷，节奏玩法作为世界中的小游戏保留。当前优先任务是先锁定首版跑酷闭环，再建立营地、地图、角色选择、关卡 HUD 与结算所需的最小 UI 系统。
+这是一个使用 AI 图片、AI 视频和程序交互制作的幻想冒险游戏前期设计仓库。当前主玩法已选择关卡制横版冒险跑酷，节奏玩法作为世界中的小游戏保留。角色、群像、角色选择和大厅 UI 按各自交接独立推进；不要把某个任务的停点当成所有任务的统一优先级。
 
 ## 当前入口
+
+### 大厅 UI 视觉探索
+
+先读 [2026-08-31 大厅 UI 交接](docs/HANDOFF_2026-08-31_LOBBY_UI.md)。已归档 [57条公开消息、6组问答及9次生图调用](docs/conversations/2026-08-31-lobby/README.md)、[六张规范与全部图像](assets/handoff/2026-08-31-lobby/README.md)。已确认保持温暖轻奇幻的2.5D图标，UI干净、易抠图；最新规范版大厅仍待验收。此任务不写游戏代码，不擅自改变营地背景，也不把规范中的示例系统当成新增功能。
+
+### 五人群像与线稿
 
 **2026-08-31更新：当前视觉制作停在五人动态群像的线稿精修。** 用户已确认米露卡骑扫帚修正、已生成初始线稿，精修提示词已交付但结果未验收。先读 [最新视觉交接](docs/HANDOFF_2026-08-31_KEYART_AND_LINEART.md)。下方08-28优先级保留为玩法/UI历史，不再用其暂停顺序覆盖用户后来恢复的视觉任务。
 
@@ -15,7 +21,7 @@
 
 接管本项目的 Codex 请按以下顺序阅读：
 
-1. [`docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md`](docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md) — **当前总入口与最高优先级**，记录关卡制横版冒险跑酷转向、节奏小游戏位置、温暖星路旅行 UI、全部新失败记录和回家后的执行顺序。
+1. [`docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md`](docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md) — 玩法转向与早期UI历史；执行顺序以用户当前任务对应的08-31交接为准。
 2. [`docs/HANDOFF_2026-08-31_CHARACTER_TURNAROUNDS.md`](docs/HANDOFF_2026-08-31_CHARACTER_TURNAROUNDS.md) — 角色四视图的当前事实源：五人锁定项、米露卡候选问题、可直接使用的提示词、波姆体型纠正与后续验收顺序。
 3. [`docs/HANDOFF_2026-08-31_CHARACTER_SELECT_UI_SYSTEM.md`](docs/HANDOFF_2026-08-31_CHARACTER_SELECT_UI_SYSTEM.md) — **角色选择 UI 当前事实源**：3:4 卡片、锁定组件、`CONFIRM` 未完成状态、全部新迭代、提示词模板和下一步。
 4. [`docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md`](docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md) — Logo、加载动画与角色选择 UI 的前序跨对话停点。
