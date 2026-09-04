@@ -1,8 +1,12 @@
 # 《星谱大陆》：角色、玩法与游戏界面开发
 
-这是一个使用 AI 图片、AI 视频和程序交互制作的幻想冒险游戏前期设计仓库。当前主玩法已选择关卡制横版冒险跑酷，节奏玩法作为世界中的小游戏保留。角色、群像、角色选择和大厅 UI 按各自交接独立推进；不要把某个任务的停点当成所有任务的统一优先级。
+这是一个使用 AI 图片、AI 视频和程序交互制作的幻想冒险游戏前期设计仓库。当前主玩法是面向电脑网页的俯视角轻量动作 Roguelite；首版只制作米露卡，验证远近战切换、房间三波战斗、战后三选一祝福和整局重开。角色、群像、角色选择和大厅 UI 按各自交接独立推进；不要把某个任务的停点当成所有任务的统一优先级。
 
 ## 当前入口
+
+### 最新玩法设计
+
+先读 [2026-09-04 俯视角动作 Roguelite 玩法交接](docs/HANDOFF_2026-09-04_TOPDOWN_ROGUELITE.md)。2026-08-28 的横版跑酷方向已经被取代，只保留为历史；随机武器、其他可玩角色、永久养成和多人队伍均不进入首个可玩版本。
 
 ### 大厅 UI 视觉探索
 
@@ -23,7 +27,9 @@
 
 接管本项目的 Codex 请按以下顺序阅读：
 
-1. [`docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md`](docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md) — 玩法转向与早期UI历史；执行顺序以用户当前任务对应的08-31交接为准。
+玩法任务应首先读取 [`docs/HANDOFF_2026-09-04_TOPDOWN_ROGUELITE.md`](docs/HANDOFF_2026-09-04_TOPDOWN_ROGUELITE.md)；下面的列表同时保留视觉与历史资料入口。
+
+1. [`docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md`](docs/HANDOFF_2026-08-28_RUNNER_AND_UI_DIRECTION.md) — 已被取代的横版跑酷方向与早期 UI 历史，仅用于追溯。
 2. [`docs/HANDOFF_2026-08-31_CHARACTER_TURNAROUNDS.md`](docs/HANDOFF_2026-08-31_CHARACTER_TURNAROUNDS.md) — 角色四视图的当前事实源：五人锁定项、米露卡候选问题、可直接使用的提示词、波姆体型纠正与后续验收顺序。
 3. [`docs/HANDOFF_2026-08-31_CHARACTER_SELECT_UI_SYSTEM.md`](docs/HANDOFF_2026-08-31_CHARACTER_SELECT_UI_SYSTEM.md) — **角色选择 UI 当前事实源**：3:4 卡片、锁定组件、`CONFIRM` 未完成状态、全部新迭代、提示词模板和下一步。
 4. [`docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md`](docs/HANDOFF_2026-08-27_CROSS_THREAD_SYNC.md) — Logo、加载动画与角色选择 UI 的前序跨对话停点。
@@ -37,11 +43,12 @@
 12. [`GAME_DESIGN_HANDOFF.md`](GAME_DESIGN_HANDOFF.md) — 玩法、世界观、制作限制与早期完整记录。
 13. [`docs/HANDOFF_2026-08-25_LOADING_SCREEN.md`](docs/HANDOFF_2026-08-25_LOADING_SCREEN.md) — 更早的加载页历史方案，仅用于追溯。
 
-## 2026-08-31 准确停点
+## 最新准确停点
 
 - 游戏名称锁定为《星谱大陆》／`ASTRAL SCORE`，Logo 方向已确认但尚未开始正式绘制。
-- 主玩法已选择 B：有起点终点、岔路、剧情事件和探索收集的关卡制横版冒险跑酷。节奏游戏作为世界中的小游戏保留，不再是主循环。
-- 跑酷主玩法方向继续保留，但用户随后明确恢复角色选择 UI。当前先锁 3:4 角色卡、已确认组件和 `CONFIRM`；完成后再回到“自动前进或左右控制”的跑酷问题。加载动画、Logo 与波姆旧美宣继续暂停。
+- 主玩法已改为电脑网页端俯视角轻量动作 Roguelite；横版跑酷不再是当前方向。
+- 首版只做米露卡：`WASD` 移动、鼠标左键攻击、`Q` 切换远程／近战、`E` 星辉爆发、`Space` 闪避、`F` 开宝箱。完整闭环和范围见 2026-09-04 玩法交接。
+- 视觉专项仍从各自交接继续。玩法转向不等于自动重做角色选择、大厅、Logo 或加载动画。
 - UI 最新方向为“温暖星路旅行”：奶油黄内容区、清浅蓝结构、暖橙主操作、少量薄荷绿。功能页可用完整旅行册面板，角色选择等沉浸页只用边缘小组件。
 - 角色选择原型位置与大小已由用户画出并归档；固定显示顺序仍为 `MILUKA → NAISHA → PEKO → YANQIU → BOMU`，其中 `NAISHA/NYSHA` 英文拼写待核验。
 - 五张角色美宣已归档到 [`assets/handoff/2026-08-27/character-select/`](assets/handoff/2026-08-27/character-select/)，它们是全屏出场动画基础，不是要被抠成统一站姿的立绘。
