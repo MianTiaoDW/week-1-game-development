@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-07",
+  "purpose": "Lobby environment composition, line-art and white-model handoff",
+  "files": [
+    {
+      "path": "01-color-composition-source.jpg",
+      "bytes": 1375742,
+      "sha256": "15e7e9cdc65307e2f7a66ac72b7ddf50dc758219ca39f74c7894e7fa585a6e49"
+    },
+    {
+      "path": "02-clean-lineart.png",
+      "bytes": 5828832,
+      "sha256": "1e66fe6d9938f8178eecc1adb5e0b7b3273ac2c36bb772730a9860a6eea29b93"
+    },
+    {
+      "path": "03-white-model-v1.png",
+      "bytes": 6096258,
+      "sha256": "b2dda66bec1ea6f3121a9221fdde52a839dae3870295068b24db17d375fe2b6c"
+    },
+    {
+      "path": "04-white-model-v2-current.png",
+      "bytes": 6056521,
+      "sha256": "dbc8c974ac2c8fbfc394d8c56f1478eec33c23ddf1c0eed41e3425b2b4af608e"
+    }
+  ]
+}
