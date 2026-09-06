@@ -1,0 +1,79 @@
+[
+  {
+    "source": "D:/爱狗AI课程/AIGC全攻略第四期/第一节游戏开发/米露卡美宣.jpg",
+    "repositoryPath": "assets/handoff/2026-09-07-ui-exploration/miluka-splash.jpg",
+    "sha256": "A70514B58E64A6419E7D285632277332427FBC47314AD5429D996F3D6F51C784",
+    "bytes": 2671884,
+    "status": "current-art"
+  },
+  {
+    "source": "D:/爱狗AI课程/AIGC全攻略第四期/第一节游戏开发/奈纱美宣.jpg",
+    "repositoryPath": "assets/handoff/2026-08-27/character-select/naisha-splash.jpg",
+    "sha256": "2767D523B74651B95C85046D77BD9E37A25C0AD92A338417A121F7292A25F7BB",
+    "bytes": 1657809,
+    "status": "current-art"
+  },
+  {
+    "source": "D:/爱狗AI课程/AIGC全攻略第四期/第一节游戏开发/佩可美宣.jpg",
+    "repositoryPath": "assets/handoff/2026-08-27/character-select/peko-splash.jpg",
+    "sha256": "7E518967BA1835E6A6A7835C0D12979AA70C4A47DBA0105631167702DCA48C2B",
+    "bytes": 1609448,
+    "status": "current-art"
+  },
+  {
+    "source": "D:/爱狗AI课程/AIGC全攻略第四期/第一节游戏开发/砚秋美宣.jpg",
+    "repositoryPath": "assets/handoff/2026-08-27/character-select/yanqiu-splash.jpg",
+    "sha256": "CCBDEA9D2CF1D70F78EB9D2721E7232877C270029BAEFA1332DAE45AE2690B3B",
+    "bytes": 2370566,
+    "status": "current-art"
+  },
+  {
+    "source": "D:/爱狗AI课程/AIGC全攻略第四期/第一节游戏开发/波姆美宣.jpg",
+    "repositoryPath": "assets/handoff/2026-08-27/character-select/bomu-splash.jpg",
+    "sha256": "A489C23DE0A0A52D6800783FCA8D078ECDC0139C4B116F434B9E2EF2203D57B7",
+    "bytes": 2002790,
+    "status": "current-art"
+  },
+  {
+    "source": "D:/爱狗AI课程/AIGC全攻略第四期/第一节游戏开发/大厅动画分镜4.jpg",
+    "repositoryPath": "assets/handoff/2026-09-07-ui-exploration/unused-group-art.jpg",
+    "sha256": "7D9B3771915F205FFC611BFCFE3B5D99B13CADB67622AE631C72A353FDD53FE3",
+    "bytes": 2652961,
+    "status": "former-lobby-purpose-abandoned"
+  },
+  {
+    "source": "D:/Google下载地址/T9sgNC1giO0XkybTHGcAH.png",
+    "repositoryPath": "assets/handoff/2026-09-07-ui-exploration/electric-ui-sheet.png",
+    "sha256": "E74BCF18D006A1F03F3A667FE55251307640DCCCE8E6EE9BAF2D06A4D4F31F60",
+    "bytes": 3325598,
+    "status": "rejected-direction"
+  },
+  {
+    "source": "C:/Users/33986/AppData/Local/Temp/codex-clipboard-de747815-f122-4cca-9b02-9caf1d9759a6.png",
+    "repositoryPath": "assets/handoff/2026-09-07-ui-exploration/electric-ui-with-portraits.png",
+    "sha256": "8D163E6816F31E7E530A268A48A9FACDF6D74B0801F4B87F2BA5110C5267DEBE",
+    "bytes": 2552818,
+    "status": "user-too-harsh"
+  },
+  {
+    "source": "C:/Users/33986/AppData/Local/Temp/codex-clipboard-518659b9-9fa9-4e7c-ac87-f5605fafd2b6.png",
+    "repositoryPath": "assets/handoff/2026-09-07-ui-exploration/colorful-style-reference.png",
+    "sha256": "0F5EC547157830D708EFF88829C8F881E60A192773A9EE3A8F78671C46F1564C",
+    "bytes": 1071251,
+    "status": "external-reference-only"
+  },
+  {
+    "source": "C:/Users/33986/AppData/Local/Temp/codex-clipboard-619cc68a-6213-4c0f-a1e4-5d1754f52aae.png",
+    "repositoryPath": "assets/handoff/2026-09-07-ui-exploration/rounded-blue-ui-a.png",
+    "sha256": "AAD5C5E1952F1A20A946741DACA0BBCA857902651823307A292AB02035927CD8",
+    "bytes": 1455055,
+    "status": "user-unsatisfactory"
+  },
+  {
+    "source": "C:/Users/33986/AppData/Local/Temp/codex-clipboard-62094102-d30b-4446-b724-14a7631275bc.png",
+    "repositoryPath": "assets/handoff/2026-09-07-ui-exploration/rounded-blue-ui-b.png",
+    "sha256": "62BB3556856BDFDD6DDE8283974249FE2DC2667A68F68E1AF0870A5A0D266E47",
+    "bytes": 2114367,
+    "status": "user-unsatisfactory"
+  }
+]
