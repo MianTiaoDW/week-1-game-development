@@ -1,4 +1,12 @@
-# 《星谱大陆》美术探索
+# 《群星之歌》美术探索
+
+## 当前接续入口（2026-10-15）
+
+**先读 [大厅UI最新交接与完整聊天入口](docs/HANDOFF_2026-10-15_LOBBY_UI.md)。** 游戏当前名为《群星之歌》，本轮优先大厅生图设计；星辉紫C稿布局已认可但设计感不足，新版D因网络错误尚未生成。
+
+[完整可见对话](docs/handoff/2026-10-15-lobby-chat/conversation.md) · [UI研究](docs/reference-analysis/forgotten-sea/设计思路.md) · [已生成方案](docs/prototypes/lobby-commercial/generated-concepts) · [318张参考与聊天附件](assets/handoff/2026-10-15-lobby-chat)
+
+以下是2026-09的历史入口，不能覆盖上述最新状态。
 
 游戏暂名《星谱大陆》，运行于网页的横屏游戏，玩法参考《元气骑士》。目前处于美术探索阶段，可能使用 Godot 开发，尚未确定。
 
